@@ -1,8 +1,10 @@
 /// @description Move to random point
 // You can write your code in this editor
 
-var targetX = irandom_range(0, room_width)
-var targetY = irandom_range(0, room_height)
+targetX = irandom_range(0, room_width)
+targetY = irandom_range(0, room_height)
 move_towards_point(targetX, targetY, spd)
+sprite_index = spr_move
 
-alarm[0] = 50
+// Choose a random direction every couple of seconds
+alarm[0] = irandom_range(room_speed*2, room_speed*5) / global.speed_factor

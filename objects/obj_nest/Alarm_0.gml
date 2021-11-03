@@ -3,4 +3,4 @@
 
 instance_create_layer(x, y, "Instances", ant_type)
 
-alarm[0] = 100
+alarm[0] = (room_speed * 2) / global.speed_factor

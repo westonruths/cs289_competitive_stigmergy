@@ -8,3 +8,9 @@ with (food) {
 	x = other.x - other.sprite_width/2 + 1
 	y = other.y
 }
+
+if (x == targetX && y == targetY) {
+	speed = 0
+}
+
+speed = speed * global.speed_factor
