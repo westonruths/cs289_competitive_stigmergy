@@ -13,4 +13,4 @@ if (x == targetX && y == targetY) {
 	speed = 0
 }
 
-speed = speed * global.speed_factor
+speed = speed

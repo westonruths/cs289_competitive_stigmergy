@@ -12,7 +12,7 @@ speed = 0
 
 // Randomly select attack interval
 if (!attacking) {
-	alarm[1] = irandom_range(room_speed*1, room_speed*3) / global.speed_factor
+	alarm[1] = irandom_range(50, 150)
 	attacking = true
 }
 

@@ -7,4 +7,4 @@ move_towards_point(targetX, targetY, spd)
 sprite_index = spr_move
 
 // Choose a random direction every couple of seconds
-alarm[0] = irandom_range(room_speed*2, room_speed*5) / global.speed_factor
+alarm[0] = irandom_range(50, 100)

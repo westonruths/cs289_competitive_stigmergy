@@ -3,5 +3,3 @@
 
 global.blue_score = 0
 global.red_score = 0
-
-global.speed_factor = 1
