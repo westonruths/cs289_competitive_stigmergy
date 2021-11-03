@@ -2,5 +2,10 @@
 // You can write your code in this editor
 
 instance_create_layer(x, y, "Instances", ant_type)
+ant_count -= 1
 
-alarm[0] = 50
+if (ant_count <= 0) {
+	exit;
+} else {
+	alarm[0] = 50
+}

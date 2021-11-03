@@ -3,4 +3,6 @@
 
 ant_type = noone
 
+ant_count = 100
+
 alarm[0] = 10

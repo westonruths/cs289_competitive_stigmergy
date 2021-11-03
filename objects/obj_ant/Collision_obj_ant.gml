@@ -1,7 +1,11 @@
 /// @description Insert description here
 
 // Make sure we are colliding with the enemy
-if (other.object_index != obj_enemy.object_index) {
+if instance_exists(obj_enemy) {
+	if (other.object_index != obj_enemy.object_index) {
+		exit
+	}
+} else {
 	exit
 }
 
