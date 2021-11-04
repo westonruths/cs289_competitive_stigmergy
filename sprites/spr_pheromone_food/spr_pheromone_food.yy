@@ -1,8 +1,51 @@
 {
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 4,
+  "bbox_right": 13,
+  "bbox_top": 2,
+  "bbox_bottom": 12,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fe12be91-239f-4c42-b5e9-7028d4882419","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fe12be91-239f-4c42-b5e9-7028d4882419","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"fe12be91-239f-4c42-b5e9-7028d4882419","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
   "sequence": {
     "spriteId": {"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},
     "timeUnits": 1,
@@ -45,49 +88,6 @@
     "tags": [],
     "resourceType": "GMSequence",
   },
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "type": 0,
-  "origin": 4,
-  "preMultiplyAlpha": false,
-  "edgeFiltering": false,
-  "collisionTolerance": 0,
-  "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 13,
-  "bbox_top": 2,
-  "bbox_bottom": 12,
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
-  "width": 16,
-  "height": 16,
-  "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
-  "frames": [
-    {"compositeImage":{"FrameId":{"name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"50f589a7-8fc7-4963-993b-00bf6754b3e8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fe12be91-239f-4c42-b5e9-7028d4882419","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fe12be91-239f-4c42-b5e9-7028d4882419","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"fe12be91-239f-4c42-b5e9-7028d4882419","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"fceeab18-c8f4-44e2-a7d4-3b43de103f96","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"884071be-485f-48e6-8c8d-b9c2e3525e9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"6acd2f55-4c56-4810-b6c5-27cb7e26a0d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"e42b07d3-6da1-4ddb-97ea-de5a64db36c1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"LayerId":{"name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pheromone_food","path":"sprites/spr_pheromone_food/spr_pheromone_food.yy",},"resourceVersion":"1.0","name":"1656567e-9ae1-4a32-b301-3e54b6ed4fe8","tags":[],"resourceType":"GMSpriteFrame",},
-  ],
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a29fdaaf-306e-484e-8aca-9f0c6486fb08","tags":[],"resourceType":"GMImageLayer",},
   ],

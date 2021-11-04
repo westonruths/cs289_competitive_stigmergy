@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 alarm[0] = 1
+alarm[2] = 10
 
 spd = 1
 food = noone

@@ -39,6 +39,7 @@
     {"id":{"name":"obj_pheromone","path":"objects/obj_pheromone/obj_pheromone.yy",},"order":0,},
     {"id":{"name":"print","path":"scripts/print/print.yy",},"order":0,},
     {"id":{"name":"spr_food_large","path":"sprites/spr_food_large/spr_food_large.yy",},"order":3,},
+    {"id":{"name":"obj_pheromone_home","path":"objects/obj_pheromone_home/obj_pheromone_home.yy",},"order":3,},
     {"id":{"name":"spr_food","path":"sprites/spr_food/spr_food.yy",},"order":0,},
     {"id":{"name":"spr_red_nest","path":"sprites/spr_red_nest/spr_red_nest.yy",},"order":1,},
     {"id":{"name":"obj_blue_ant","path":"objects/obj_blue_ant/obj_blue_ant.yy",},"order":1,},
