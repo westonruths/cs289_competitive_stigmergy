@@ -1,10 +1,7 @@
-/// @description Move to random point
-// You can write your code in this editor
+/// @description Forage
 
-targetX = irandom_range(0, room_width)
-targetY = irandom_range(0, room_height)
+// Choose update forage every few seconds
+AntForage()
 move_towards_point(targetX, targetY, spd)
 sprite_index = spr_move
-
-// Choose a random direction every couple of seconds
-alarm[0] = irandom_range(50, 100)
+alarm[0] = irandom_range(10, 50)
