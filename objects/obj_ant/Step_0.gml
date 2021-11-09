@@ -9,6 +9,6 @@ with (food) {
 	y = other.y
 }
 
-if (x == targetX && y == targetY) {
-	speed = 0
-}
+//if (x == targetX && y == targetY) {
+//	speed = 0
+//}

@@ -6,13 +6,13 @@ function AntReturnToNest(){
 	var phero = noone
 	
 	with(obj_pheromone_home) {	
-		if (other.x >= x) && (other.y >= y) && (other.object_index==obj_blue_ant) {
+		if (other.x > x) && (other.y > y) && (other.object_index==obj_blue_ant) && (owner.object_index == obj_blue_ant) {
 			var dist = distance_to_object(other)
 			if (dist < max_dist) && (strength >= max_strength) {
 				max_strength = strength
 				phero = self
 			}
-		} else if (other.x <= x) && (other.y <= y) && (other.object_index==obj_red_ant) {
+		} else if (other.x < x) && (other.y < y) && (other.object_index==obj_red_ant) && (owner.object_index == obj_red_ant) {
 			var dist = distance_to_object(other)
 			if (dist < max_dist) && (strength >= max_strength) {
 				max_strength = strength
@@ -28,6 +28,9 @@ function AntReturnToNest(){
 	} else {
 		targetX = phero.x
 		targetY = phero.y
-		instance_create_layer(x, y, "Instances", obj_pheromone_food)	
+		var new_phero = instance_create_layer(x, y, "Instances", obj_pheromone_food)
+		with (new_phero) {
+			owner = other
+		}
 	}
 }

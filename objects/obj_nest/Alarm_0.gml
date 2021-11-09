@@ -7,5 +7,5 @@ ant_count -= 1
 if (ant_count <= 0) {
 	exit;
 } else {
-	alarm[0] = 50
+	alarm[0] = 20
 }
