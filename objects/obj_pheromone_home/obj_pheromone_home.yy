@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pheromone_food",
-    "path": "sprites/spr_pheromone_food/spr_pheromone_food.yy",
+    "name": "spr_pheromone_home",
+    "path": "sprites/spr_pheromone_home/spr_pheromone_home.yy",
   },
   "solid": false,
   "visible": true,

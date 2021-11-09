@@ -16,3 +16,4 @@ attacking = false
 
 targetX = 0
 targetY = 0
+path = path_add();

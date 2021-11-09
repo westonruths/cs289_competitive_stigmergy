@@ -13,6 +13,7 @@ enemy_target = other
 	
 // Stop movement
 speed = 0
+path_end()
 
 // Randomly select attack interval
 if (!attacking) {
