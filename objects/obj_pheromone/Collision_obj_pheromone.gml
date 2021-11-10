@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-strength += other.strength
+if (object_index != other.object_index) {
+	exit
+}
+
+//strength += other.strength
 
 if alarm[0] < other.alarm[0] {
 	instance_destroy()

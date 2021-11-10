@@ -1,21 +1,23 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function AntFindFoodSource(){
-	var max_dist  = 300
+	var max_dist  = 100
 	var max_strength = 0
 	var phero = noone
 	
 	with(obj_pheromone_food) {	
-		if (other.x > x) && (other.y > y) && (other.object_index==obj_red_ant) && (owner.object_index == obj_red_ant){
+		if (other.x >= x) && (other.y >= y) && (other.object_index==obj_red_ant) && (owner.object_index == obj_red_ant){
 			var dist = distance_to_object(other)
 			if (dist < max_dist) && (strength >= max_strength) {
 				max_strength = strength
+				max_dist = dist
 				phero = self
 			}
-		} else if (other.x < x) && (other.y < y) && (other.object_index==obj_blue_ant) && (owner.object_index == obj_blue_ant) {
+		} else if (other.x <= x) && (other.y <= y) && (other.object_index==obj_blue_ant) && (owner.object_index == obj_blue_ant) {
 			var dist = distance_to_object(other)
 			if (dist < max_dist) && (strength >= max_strength) {
 				max_strength = strength
+				max_dist = dist
 				phero = self
 			}
 		}
