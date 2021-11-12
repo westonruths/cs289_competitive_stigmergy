@@ -5,3 +5,5 @@
 event_inherited();
 
 ant_type = obj_blue_ant
+
+ant_count = global.num_blue_ants

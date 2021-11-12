@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-pheromone_time = 1000
+pheromone_time = global.evap_rate_food

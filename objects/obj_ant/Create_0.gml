@@ -16,8 +16,8 @@ attacking = false
 
 targetX = 0
 targetY = 0
-pastX = 0
-pastY = 0
 path = path_add();
 
-fighter = false;
+running_away = false
+
+prob_flee = 0

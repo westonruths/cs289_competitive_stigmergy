@@ -11,4 +11,5 @@ spr_move = spr_red_move
 spr_dead = spr_red_dead
 
 obj_my_nest = obj_red_nest
-obj_enemy = obj_blue_ant
+
+prob_flee = global.prob_fleeing_red

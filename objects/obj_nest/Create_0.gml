@@ -3,6 +3,6 @@
 
 ant_type = noone
 
-ant_count = 250
+ant_count = 0
 
-alarm[0] = 10
+alarm[0] = global.spawn_rate

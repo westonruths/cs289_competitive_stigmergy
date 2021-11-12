@@ -18,4 +18,4 @@ if food_count > 80 {
 }
 
 draw_set_color(c_black)
-draw_text(x,y+sprite_height-10,string(food_count));
+draw_text(x,y+(sprite_height/2)-10,string(food_count));

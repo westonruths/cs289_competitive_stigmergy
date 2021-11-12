@@ -6,16 +6,16 @@ function AntReturnToNest(){
 	var phero = noone
 	
 	with(obj_pheromone_home) {	
-		if (other.x >= x) && (other.y >= y) && (other.object_index==obj_blue_ant) && (owner.object_index == obj_blue_ant) {
+		if (other.x > x) && (other.object_index==obj_blue_ant) && (owner.object_index == obj_blue_ant) {
 			var dist = distance_to_object(other)
-			if (dist < max_dist) && (strength >= max_strength) {
+			if (dist < max_dist) && (strength >= max_strength) && (dist > 5) {
 				max_strength = strength
 				max_dist = dist
 				phero = self
 			}
-		} else if (other.x <= x) && (other.y <= y) && (other.object_index==obj_red_ant) && (owner.object_index == obj_red_ant) {
+		} else if (other.x < x) && (other.object_index==obj_red_ant) && (owner.object_index == obj_red_ant) {
 			var dist = distance_to_object(other)
-			if (dist < max_dist) && (strength >= max_strength) {
+			if (dist < max_dist) && (strength >= max_strength) && (dist > 5) {
 				max_strength = strength
 				max_dist = dist
 				phero = self

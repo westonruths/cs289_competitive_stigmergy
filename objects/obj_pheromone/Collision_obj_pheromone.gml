@@ -5,7 +5,7 @@ if (object_index != other.object_index) {
 	exit
 }
 
-//strength += other.strength
+strength += other.strength
 
 if alarm[0] < other.alarm[0] {
 	instance_destroy()
