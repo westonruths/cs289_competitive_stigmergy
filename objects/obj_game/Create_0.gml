@@ -15,8 +15,8 @@ global.blue_deaths = 0
 global.red_deaths = 0
 
 //simulation parameters
-global.num_blue_ants = 250
-global.num_red_ants = 250
+global.num_blue_ants = 100
+global.num_red_ants = 100
 global.prob_fleeing_blue = 50
 global.prob_fleeing_red = 50
 global.evap_rate_food = 1000

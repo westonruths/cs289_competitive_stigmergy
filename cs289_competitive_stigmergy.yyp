@@ -16,6 +16,7 @@
     {"id":{"name":"obj_red_nest","path":"objects/obj_red_nest/obj_red_nest.yy",},"order":1,},
     {"id":{"name":"spr_blue_dead_food","path":"sprites/spr_blue_dead_food/spr_blue_dead_food.yy",},"order":10,},
     {"id":{"name":"obj_slider_fleeing_red","path":"objects/obj_slider_fleeing_red/obj_slider_fleeing_red.yy",},"order":5,},
+    {"id":{"name":"obj_food_pile_50","path":"objects/obj_food_pile_50/obj_food_pile_50.yy",},"order":4,},
     {"id":{"name":"ts_dungeon","path":"tilesets/ts_dungeon/ts_dungeon.yy",},"order":0,},
     {"id":{"name":"spr_red_move","path":"sprites/spr_red_move/spr_red_move.yy",},"order":1,},
     {"id":{"name":"spr_blue_attack","path":"sprites/spr_blue_attack/spr_blue_attack.yy",},"order":6,},
