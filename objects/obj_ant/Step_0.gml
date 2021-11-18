@@ -13,3 +13,7 @@ with (food) {
 if (x == targetX && y == targetY) {
 	alarm[0] = 1
 }
+
+if sprite_index == spr_dead {
+	path_speed = 0
+}

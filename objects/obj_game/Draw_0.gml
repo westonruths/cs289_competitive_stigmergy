@@ -3,8 +3,13 @@
 //mp_grid_draw(global.grid);
 //draw_set_alpha(1);
 
+draw_set_font(fnt_text)
+
 switch(room){
-	case rm_game:
+	case rm_test1:
+	case rm_test2:
+	case rm_test3:
+	case rm_test4:
 		draw_set_alpha(0.8);
 		draw_rectangle_color(0,0,room_width,32, c_white, c_white, c_white, c_white, false)
 		draw_set_alpha(1);
@@ -31,28 +36,36 @@ switch(room){
 	case rm_start:
 		draw_set_halign(fa_center);
 		var c = c_yellow;
+		draw_set_font(fnt_text_big)
 		draw_text_transformed_color(
-			room_width/2, 100, "WESTANT",
-			3, 3, 0, c,c,c,c, 1
+			room_width/2, 75, "WESTANT",
+			1, 1, 0, c,c,c,c, 1
+		);
+		draw_set_font(fnt_text)
+		draw_text(
+			room_width/2, 150,
+			@"Bryce Strauss and Weston Ruths"
 		);
 		draw_text(
 			room_width/2, 200,
-			@"Bryce Strauss and Weston Ruths"
+			@">> Choose the Simulation Parameters <<"
 		);
 		draw_set_halign(fa_left);
 		break;
 		
 	case rm_end:
 		draw_set_halign(fa_center);
-		var c = c_yellow;
+		var c = c_green;
+		draw_set_font(fnt_text_big)
 		draw_text_transformed_color(
 			room_width/2, 100, "ROUND COMPLETE",
-			3, 3, 0, c,c,c,c, 1
+			1, 1, 0, c,c,c,c, 1
 		);
-		draw_set_color(c_white)
+		draw_set_font(fnt_text)
+		draw_set_color(c_black)
 		draw_text(
 			room_width/2, 175,
-			@">> TAP TO RESTART <<"
+			@">> Results Are Below <<"
 		);
 		draw_set_color(c_blue)
 		draw_text(room_width/2-100, 250, "BLUE SCORE: " + string(global.blue_score));
@@ -63,4 +76,12 @@ switch(room){
 		draw_set_halign(fa_left);
 		break;
 		
+	case rm_arena_select:
+		draw_set_halign(fa_center);
+		draw_set_color(c_yellow)
+		draw_text(
+			room_width/2, 50,
+			@">> Select the Map for the Simulation <<"
+		);
+		draw_set_halign(fa_left);
 }
