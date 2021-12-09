@@ -10,7 +10,12 @@ if (ant_health < health_max) && (ant_health > 0) && attacking {
 }
 
 //if (running_away) {
-//	draw_set_color(c_black)
+//	if object_index == obj_blue_ant {
+//		draw_set_color(c_blue)
+//	}
+//	else {
+//		draw_set_color(c_red)	
+//	}
 //	draw_text(x,y-sprite_height-10,"Run Away!");
 //}
 

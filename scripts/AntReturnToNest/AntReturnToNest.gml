@@ -30,9 +30,9 @@ function AntReturnToNest(){
 	} else {
 		targetX = phero.x
 		targetY = phero.y
-		var new_phero = instance_create_layer(x, y, "Instances", obj_pheromone_food)
-		with (new_phero) {
-			owner = other
-		}
+	}
+	var new_phero = instance_create_layer(x, y, "Instances", obj_pheromone_food)
+	with (new_phero) {
+		owner = other
 	}
 }
